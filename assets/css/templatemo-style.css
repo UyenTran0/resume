@@ -691,6 +691,9 @@ section.contact-me {
 }
 
 @media screen and (max-width: 1680px) {
+ 
+   
+
     .menu {
         left: 5%;
     }
@@ -700,6 +703,13 @@ section.contact-me {
         width: 65%;
         right: 5%;
         left: 30%;
+    }
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1920px){
+    .image-custom{
+        margin-left: 300px;
+        width: 500px;
     }
 }
 
@@ -820,5 +830,11 @@ section.contact-me {
     }
     .isotope-toolbar {
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px){
+    .image-custom{
+        width: 100%;
     }
 }
