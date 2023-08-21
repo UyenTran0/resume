@@ -691,6 +691,9 @@ section.contact-me {
 }
 
 @media screen and (max-width: 1680px) {
+    .image{
+        width: 500px;
+    }
     .menu {
         left: 5%;
     }
@@ -704,6 +707,9 @@ section.contact-me {
 }
 
 @media screen and (max-width: 1680px) and (min-width: 846px) { 
+    .image{
+        width: 500px;
+    }
     .menu .social-network ul li a {
         width: 36px;
         height: 36px;
@@ -720,6 +726,9 @@ section.contact-me {
 }
 
 @media screen and (max-width: 1280px) {
+    .image{
+        width: 500px;
+    }
     .menu {
         left: 0%;
     }
@@ -820,5 +829,11 @@ section.contact-me {
     }
     .isotope-toolbar {
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px){
+    .image{
+        width: 100%;
     }
 }
